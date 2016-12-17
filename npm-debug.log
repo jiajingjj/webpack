@@ -1,0 +1,28 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'login' ]
+2 info using npm@3.6.0
+3 info using node@v5.7.1
+4 warn Username may not contain non-url-safe chars
+5 warn Username may not contain non-url-safe chars
+6 verbose stack Error: canceled
+6 verbose stack     at Interface.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\read\lib\read.js:66:13)
+6 verbose stack     at emitNone (events.js:80:13)
+6 verbose stack     at Interface.emit (events.js:179:7)
+6 verbose stack     at Interface._ttyWrite (readline.js:691:16)
+6 verbose stack     at ReadStream.onkeypress (readline.js:106:10)
+6 verbose stack     at emitTwo (events.js:100:13)
+6 verbose stack     at ReadStream.emit (events.js:185:7)
+6 verbose stack     at emitKeys (readline.js:1251:14)
+6 verbose stack     at next (native)
+6 verbose stack     at ReadStream.onData (readline.js:919:36)
+7 verbose cwd C:\Users\admin\Desktop\webpack
+8 error Windows_NT 10.0.14393
+9 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "login"
+10 error node v5.7.1
+11 error npm  v3.6.0
+12 error canceled
+13 error If you need help, you may report this error at:
+13 error     <https://github.com/npm/npm/issues>
+14 verbose exit [ 1, true ]
